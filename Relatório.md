@@ -44,3 +44,7 @@ Os **testes** serão realizados segundo o ficheiro ``tests.py``, inserido ou mod
 ## .gitignore
 
 O **. gitignore** é o ficheiro responsável por ditar quais os ficheiros e pastas que não irão para o repositório. Neste caso só está listado o ficheiro ``lintingReports.txt`` pois é o unico que não é listado automaticamente no seu proprio ``.gitignore``, como por exemplo a pasta ``.ruff_cache``.
+
+## .gitattributes
+
+O **.gitattributes** é o ficheiro responsável por ditar o tipo de formatação de final de linha em todos os ficheiros. isto é necessário pois os ficheiros têm que estar na formatação **LF** para serem executados devidamente dentro do container.
