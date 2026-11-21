@@ -1,6 +1,6 @@
 FROM nginx:stable-alpine3.24-perl
 
-#Install packages dependencies
+#Install packages dependencie
 COPY ./src/app/alpine-packages.txt /tmp/alpine-packages.txt
 
 RUN apk add python3 ruff py3-pip git ttf-dejavu $(tr '\n' ' ' < /tmp/alpine-packages.txt)
