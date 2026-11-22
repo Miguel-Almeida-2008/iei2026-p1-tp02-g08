@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7462e344027b0621",
+        "id": "b44aff784dc131b9",
         "type": "tabs",
         "children": [
           {
-            "id": "9cde928685e9cabe",
+            "id": "4c2ec65b7b7416d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -77,6 +77,20 @@
               },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
+            }
+          },
+          {
+            "id": "9cde928685e9cabe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relatório.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relatório"
             }
           }
         ]
@@ -188,6 +202,8 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "9cde928685e9cabe",
-  "lastOpenFiles": []
+  "active": "4c2ec65b7b7416d6",
+  "lastOpenFiles": [
+    "Relatório.md"
+  ]
 }
